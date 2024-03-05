@@ -13,6 +13,12 @@ public class Main {
             System.out.println("This is not an interval. a must be smaller than b");
             System.exit(-1);
         }
+
+        if(k<=0) {
+            System.out.println("k must be a positive number");
+            System.exit(-1);
+        }
+
 long startTime=System.nanoTime();
         String kReductible = "";
         for (int i = a; i <= b; i++) {
