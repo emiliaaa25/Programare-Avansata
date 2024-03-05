@@ -31,7 +31,7 @@ long startTime=System.nanoTime();
         long finishTime=System.nanoTime();
         long time=finishTime-startTime;
         System.out.println("Running time is:"+time+" nanoseconds");
-        System.out.println("K-reductibles numbers from "+a+ " to "+b +" are "+ kReductible);
+        System.out.println(k+"-reductibles numbers from "+a+ " to "+b +" are "+ kReductible);
 
     }
 
