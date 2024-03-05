@@ -19,7 +19,7 @@ public class Main {
             System.exit(-1);
         }
 
-long startTime=System.nanoTime();
+long startTime = System.nanoTime();
         String kReductible = "";
         for (int i = a; i <= b; i++) {
             if (isKReductible(i, k)) {
@@ -36,7 +36,7 @@ long startTime=System.nanoTime();
     }
 
     private static boolean isKReductible(int x, int k) {
-        while(x>9){
+        while(x > 9){
             int sum=0;
             int n=x;
             while(n!=0){
