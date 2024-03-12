@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45a636fe-dbd4-4bb1-b170-86db0c5ee98a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bonus/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/Bonus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/ClientType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/Depot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/Drones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bonus/src/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/Client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/ClientType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/Depot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/Drones.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/Problem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/Solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/Truck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script-dir/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDoc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Depot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Drones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/Compulsory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/src/Church.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/src/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/src/Payable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/src/Statue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/src/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Laborator 3/Compulsory/src/Visitable.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dactdYb2NvHXIBcWFQRStSTdvf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Emilia/OneDrive/Documente/GitHub/Programare-Avansata/Laborator 1/Bonus",
+    "onboarding.tips.debug.path": "C:/Users/Emilia/OneDrive/Documente/GitHub/Programare-Avansata/Laborator 2/Homework/src/Main.java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-temurin-17.0.10-3183f394aec4-87f3d08d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a636fe-dbd4-4bb1-b170-86db0c5ee98a" name="Changes" comment="" />
+      <created>1710249849523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710249849523</updated>
+    </task>
+    <servers />
+  </component>
+</project>
