@@ -1,6 +1,6 @@
 public class Drones extends Vehicle {
     private int duration;
-    public Drones(String model, String id, int duration) {
+    public Drones(String model, int id, int duration) {
         super(model, id);
         this.duration=duration;
     }

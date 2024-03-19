@@ -1,16 +1,16 @@
 import java.util.Objects;
 abstract class Vehicle {
-    private String id;
+    private int id;
     private String model;
     private Depot depot;
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
-    public Vehicle(String model, String id){
+    public Vehicle(String model, int id){
         this.model=model;
         this.id=id;
     }
@@ -44,4 +44,6 @@ abstract class Vehicle {
         return Objects.equals(vehicle.id, id);
 
     }
+
+
 }

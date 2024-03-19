@@ -1,6 +1,6 @@
 public class Truck extends Vehicle{
     private int capacity;
-    public Truck(String model, String id,int capacity) {
+    public Truck(String model, int id, int capacity) {
         super(model, id);
         this.capacity=capacity;
     }
