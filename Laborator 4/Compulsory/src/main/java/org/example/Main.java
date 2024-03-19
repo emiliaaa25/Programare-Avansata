@@ -19,11 +19,11 @@ public class Main {
         persons.add(p4);
         persons.add(p5);
 
-        List<Person> drivers = persons.stream().filter(person -> person.getType()==PersonType.DRIVER).collect(Collectors.toCollection(LinkedList::new));
+        List<Person> drivers = persons.stream().filter(person -> person.getType() == PersonType.DRIVER).collect(Collectors.toCollection(LinkedList::new));
         drivers.stream().sorted(Person::getAge).forEach(System.out::println);
         System.out.println();
 
-        Set<Person> passengers = persons.stream().filter(person -> person.getType()==PersonType.PASSENGER).collect(Collectors.toCollection(TreeSet::new));
+        Set<Person> passengers = persons.stream().filter(person -> person.getType() == PersonType.PASSENGER).collect(Collectors.toCollection(TreeSet::new));
         passengers.stream().sorted(Person::compareTo).forEach(System.out::println);
     }
 }

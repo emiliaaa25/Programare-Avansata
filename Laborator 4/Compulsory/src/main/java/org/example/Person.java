@@ -1,5 +1,6 @@
 package org.example;
-public class Person implements Comparable<Person>{
+
+public class Person implements Comparable<Person> {
     private String name;
     private int age;
 
@@ -13,7 +14,7 @@ public class Person implements Comparable<Person>{
 
     private PersonType type;
 
-    public  String getName() {
+    public String getName() {
         return this.name;
     }
 
@@ -32,16 +33,17 @@ public class Person implements Comparable<Person>{
     public Person(String name, int age, PersonType type) {
         this.name = name;
         this.age = age;
-        this.type=type;
+        this.type = type;
     }
 
     @Override
     public int compareTo(Person o) {
         return this.name.compareTo(o.name);
     }
+
     @Override
     public String toString() {
-        return "Person "+ getName();
+        return "Person " + getName();
     }
 
 
