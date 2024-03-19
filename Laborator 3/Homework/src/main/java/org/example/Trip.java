@@ -12,8 +12,8 @@ public class Trip {
 
     private List<Attraction> attractions;
 
-    Trip(String city){
-        this.city=city;
+    Trip(String city) {
+        this.city = city;
         this.attractions = new ArrayList<>();
     }
 
@@ -37,17 +37,17 @@ public class Trip {
         attractions.add(a);
     }
 
-    public void visitableAttractions(){
-        List<Visitable> visitable=new ArrayList<>();
-        for (Attraction attraction: attractions)
-            if(attraction instanceof Visitable&&!(attraction instanceof Payable))
+    public void visitableAttractions() {
+        List<Visitable> visitable = new ArrayList<>();
+        for (Attraction attraction : attractions)
+            if (attraction instanceof Visitable && !(attraction instanceof Payable))
                 visitable.add((Visitable) attraction);
 
         visitable.sort(Comparator.comparing(this::getOpeningTime));
 
         System.out.println("Visitable locations: ");
         for (Visitable location : visitable) {
-            System.out.println(location.getTitle()+ " opens at " + getOpeningTime(location));
+            System.out.println(location.getTitle() + " opens at " + getOpeningTime(location));
         }
     }
 
@@ -62,10 +62,10 @@ public class Trip {
 
 
     @Override
-    public String toString(){
-        StringBuilder result=new StringBuilder();
+    public String toString() {
+        StringBuilder result = new StringBuilder();
         result.append("I m going to ").append(city).append("and I'm visiting: ");
-        for(Attraction attraction: attractions)
+        for (Attraction attraction : attractions)
             result.append(attraction).append(", ");
         return result.toString();
     }

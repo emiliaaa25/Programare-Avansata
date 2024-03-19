@@ -1,4 +1,5 @@
 package org.example;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -18,8 +19,8 @@ public class Main {
         museumTimetable.put(LocalDate.of(2024, 10, 25), new TimeInterval<>(LocalTime.of(10, 0), LocalTime.of(17, 0)));
 
         Church church = new Church("Peace Church", churchTimetable);
-        Statue statue = new Statue("Liberty Statue",statueTimetable,10F);
-        Museum museum = new Museum("New York's museum",museumTimetable);
+        Statue statue = new Statue("Liberty Statue", statueTimetable, 10F);
+        Museum museum = new Museum("New York's museum", museumTimetable);
         Concert concert = new Concert("Rock Concert", 25.0F);
 
         List<Attraction> attractions = new ArrayList<>();

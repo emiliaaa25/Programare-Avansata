@@ -4,15 +4,15 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Map;
 
-public class Statue extends Attraction implements Payable,Visitable {
+public class Statue extends Attraction implements Payable, Visitable {
     private String title;
     private float ticket;
     private Map<LocalDate, TimeInterval<LocalTime>> visitingTable;
 
-    public Statue(String title, Map<LocalDate, TimeInterval<LocalTime>> visitingTable,float ticket) {
+    public Statue(String title, Map<LocalDate, TimeInterval<LocalTime>> visitingTable, float ticket) {
         super(title);
-        this.visitingTable=visitingTable;
-        this.ticket=ticket;
+        this.visitingTable = visitingTable;
+        this.ticket = ticket;
     }
 
     public float getTicket() {
@@ -25,7 +25,7 @@ public class Statue extends Attraction implements Payable,Visitable {
 
     @Override
     public void setPrice(float price) {
-        ticket=price;
+        ticket = price;
     }
 
     @Override
@@ -34,8 +34,8 @@ public class Statue extends Attraction implements Payable,Visitable {
     }
 
     @Override
-    public String toString(){
-        StringBuilder result=new StringBuilder();
+    public String toString() {
+        StringBuilder result = new StringBuilder();
         result.append(title);
         return result.toString();
     }

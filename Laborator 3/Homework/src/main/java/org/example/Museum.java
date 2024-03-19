@@ -4,19 +4,19 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Map;
 
-public class Museum extends Attraction implements Visitable{
+public class Museum extends Attraction implements Visitable {
 
     private String title;
     private Map<LocalDate, TimeInterval<LocalTime>> visitingTable;
 
-    public Museum(String title,Map<LocalDate, TimeInterval<LocalTime>> visitingTable) {
+    public Museum(String title, Map<LocalDate, TimeInterval<LocalTime>> visitingTable) {
         super(title);
-        this.visitingTable=visitingTable;
+        this.visitingTable = visitingTable;
     }
 
     @Override
-    public String toString(){
-        StringBuilder result=new StringBuilder();
+    public String toString() {
+        StringBuilder result = new StringBuilder();
         result.append(title);
         return result.toString();
     }

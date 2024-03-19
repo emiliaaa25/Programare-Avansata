@@ -16,7 +16,7 @@ public class Concert extends Attraction implements Payable {
     public Concert(String title, float ticket) {
         super(title);
         this.title = title;
-        this.ticket=ticket;
+        this.ticket = ticket;
     }
 
     public float getTicket() {
@@ -29,16 +29,17 @@ public class Concert extends Attraction implements Payable {
 
     @Override
     public void setPrice(float price) {
-        ticket=price;
+        ticket = price;
     }
 
     @Override
     public float getPrice() {
         return ticket;
     }
+
     @Override
-    public String toString(){
-        StringBuilder result=new StringBuilder();
+    public String toString() {
+        StringBuilder result = new StringBuilder();
         result.append(title);
         return result.toString();
     }
