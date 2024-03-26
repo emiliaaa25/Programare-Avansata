@@ -59,21 +59,21 @@ public class Main {
 
         Solution solver = new Solution(drivers, passengers, edgeProbability);
         Graph<Object, DefaultEdge> graph = solver.solve(destinationMap);
-        Set<Object> SPartition = new TreeSet<>();
-        Set<Object> TPartition = new TreeSet<>();
+        Set<Object> sPartition = new TreeSet<>();
+        Set<Object> tPartition = new TreeSet<>();
         destinationMap.forEach((key, value) -> {
             if (graph.containsVertex(key)) {
-                TPartition.add(key);
+                tPartition.add(key);
             }
             value.forEach(person -> {
                 if (graph.containsVertex(person)) {
-                    SPartition.add(person);
+                    sPartition.add(person);
                 }
 
             });
         });
 
-        ArrayList<Object> cardinalitySet = solver.maximumCardinalitySet(graph, SPartition, TPartition);
+        ArrayList<Object> cardinalitySet = solver.maximumCardinalitySet(graph, sPartition, tPartition);
 
 
         System.out.println("Maximum Cardinality Set: " + cardinalitySet.size());

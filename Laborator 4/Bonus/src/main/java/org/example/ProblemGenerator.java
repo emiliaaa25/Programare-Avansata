@@ -20,8 +20,9 @@ public class ProblemGenerator {
         Random random = new Random();
         List<String> address = new ArrayList<>();
         int n = 10;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++){
             address.add(faker.address().city());
+        }
         List<Person> persons = new ArrayList<>();
         for (int i = 0; i < numDrivers; i++) {
             persons.add(new Person(faker.name().firstName(), faker.number().numberBetween(18, 70), PersonType.DRIVER, accessNumber(random.nextInt(10), address)));
