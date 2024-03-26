@@ -1,4 +1,5 @@
 package org.example;
+
 import java.util.*;
 import java.time.LocalDate;
 
@@ -18,71 +19,39 @@ public class GreedyColoring {
 
             usedColors.clear();
 
-            boolean overlapsExist = checkForOverlaps(attractionsForDay);
+            attractionsForDay.sort(Comparator.comparing(Attraction::getVisit));
 
-            int color = 0;
-            if (overlapsExist) {
-                for (Attraction attraction : attractionsForDay) {
-                    Set<Integer> neighborColors = new HashSet<>();
-                    for (Attraction conflictingAttraction : attractionsForDay) {
-                        Integer neighborColor = colorAssigned.get(conflictingAttraction);
-                        if (neighborColor != null) {
-                            neighborColors.add(neighborColor);
-                        }
+            for (Attraction attraction : attractionsForDay) {
+                Set<Integer> neighborColors = new HashSet<>();
+                for (Attraction neighbor : getAdjacentAttractions(attraction, attractionsForDay)) {
+                    Integer neighborColor = colorAssigned.get(neighbor);
+                    if (neighborColor != null) {
+                        neighborColors.add(neighborColor);
                     }
-
-                    color = 0;
-                    while (neighborColors.contains(color) || usedColors.contains(color)) {
-                        color++;
-                    }
-
-                    colorAssigned.put(attraction, color);
-                    usedColors.add(color);
-
-
-                    for (Attraction attractionNew: checkForOverlapsAttractions(attractionsForDay))
-                    {colorAssigned.put(attraction, color);
-                    usedColors.add(color);}
                 }
-            } else {
-                for (Attraction attraction : attractionsForDay) {
-                    colorAssigned.put(attraction, 0);
+
+                int color = 0;
+                while (neighborColors.contains(color)) {
+                    color++;
                 }
+
+                colorAssigned.put(attraction, color);
+                usedColors.add(color);
             }
 
             printTripSchedule(date, attractionsForDay, colorAssigned);
         }
     }
 
-
-    private boolean checkForOverlaps(List<Attraction> attractionsForDay) {
-        for (int i = 0; i < attractionsForDay.size(); i++) {
-            for (int j = i + 1; j < attractionsForDay.size()-1; j++) {
-                Attraction attraction1 = attractionsForDay.get(i);
-                Attraction attraction2 = attractionsForDay.get(j);
-                if (attraction1.canVisit(attraction2) || attraction2.canVisit(attraction1)) {
-                    return true;
-                }
+    private List<Attraction> getAdjacentAttractions(Attraction attraction, List<Attraction> attractions) {
+        List<Attraction> adjacentAttractions = new ArrayList<>();
+        for (Attraction other : attractions) {
+            if (attraction != other && attraction.canVisit(other)) {
+                adjacentAttractions.add(other);
             }
         }
-        return false;
+        return adjacentAttractions;
     }
-
-    public List<Attraction> checkForOverlapsAttractions(List<Attraction> attractionsForDay) {
-        List<Attraction> attractions=new ArrayList<>();
-        for (int i = 0; i < attractionsForDay.size(); i++) {
-            for (int j = i + 1; j < attractionsForDay.size()-1; j++) {
-                Attraction attraction1 = attractionsForDay.get(i);
-                Attraction attraction2 = attractionsForDay.get(j);
-                if (attraction1.canVisit(attraction2) || attraction2.canVisit(attraction1)) {
-                    attractions.add(attraction1);
-                    attractions.add(attraction2);
-                }
-            }
-        }
-        return attractions;
-    }
-
 
     public void printTripSchedule(LocalDate date, List<Attraction> attractionsForDay, Map<Attraction, Integer> colorAssigned) {
         System.out.println("Date: " + date);

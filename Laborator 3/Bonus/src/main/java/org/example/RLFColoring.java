@@ -1,6 +1,7 @@
 package org.example;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.*;
 
 public class RLFColoring {
@@ -10,25 +11,67 @@ public class RLFColoring {
         this.plan = plan;
     }
 
-    public void colorGraph(List<Attraction> attractions) {
+    public void planTripRLF() {
         Map<Attraction, Integer> colorAssigned = new HashMap<>();
         Set<Integer> usedColors = new HashSet<>();
 
-        attractions.sort(Comparator.comparingInt(attraction -> getConflictingAttractions(attraction).size()));
+        Random random = new Random();
 
-        for (Attraction attraction : attractions) {
-            Set<Integer> neighborColors = new HashSet<>();
-            for (Attraction neighbor : getConflictingAttractions(attraction)) {
-                neighborColors.add(colorAssigned.getOrDefault(neighbor, -1));
+        for (LocalDate date : plan.keySet()) {
+            List<Attraction> attractionsForDay = plan.get(date);
+
+            usedColors.clear();
+
+            attractionsForDay.sort((a1, a2) -> {
+                TimeInterval<LocalTime> timeInterval1 = a1.getTimeTable().get(date);
+                TimeInterval<LocalTime> timeInterval2 = a2.getTimeTable().get(date);
+
+
+                if (timeInterval1 != null && timeInterval2 != null) {
+                    int duration1 = timeInterval1.getEndVisit().getHour() - timeInterval1.getStartVisit().getHour();
+                    int duration2 = timeInterval2.getEndVisit().getHour() - timeInterval2.getStartVisit().getHour();
+                    return Integer.compare(duration2, duration1);
+                } else {
+                    return 0;
+                }
+            });
+
+            for (Attraction attraction : attractionsForDay) {
+                Set<Integer> neighborColors = new HashSet<>();
+                for (Attraction neighbor : getAdjacentAttractions(attraction, attractionsForDay)) {
+                    Integer neighborColor = colorAssigned.get(neighbor);
+                    if (neighborColor != null) {
+                        neighborColors.add(neighborColor);
+                    }
+                }
+
+                int colorAttempts = 0;
+                int color;
+                do {
+                    color = random.nextInt(attractionsForDay.size());
+                    colorAttempts++;
+
+                    if (colorAttempts > attractionsForDay.size()) {
+                        System.out.println("Unable to find a valid color for attraction: " + attraction.getTitle());
+                    }
+                } while (neighborColors.contains(color) || usedColors.contains(color));
+
+                colorAssigned.put(attraction, color);
+                usedColors.add(color);
             }
-            int color;
-            for (color = 0; usedColors.contains(color); color++) ;
-            colorAssigned.put(attraction, color);
-            usedColors.add(color);
-            plan.put(getEarliestAvailableDate(attraction), Arrays.asList(attraction));
-            printTripSchedule(getEarliestAvailableDate(attraction),attractions,colorAssigned);
-        }
 
+            printTripSchedule(date, attractionsForDay, colorAssigned);
+        }
+    }
+
+    private List<Attraction> getAdjacentAttractions(Attraction attraction, List<Attraction> attractions) {
+        List<Attraction> adjacentAttractions = new ArrayList<>();
+        for (Attraction other : attractions) {
+            if (attraction != other && attraction.canVisit(other)) {
+                adjacentAttractions.add(other);
+            }
+        }
+        return adjacentAttractions;
     }
 
     public void printTripSchedule(LocalDate date, List<Attraction> attractionsForDay, Map<Attraction, Integer> colorAssigned) {
@@ -38,33 +81,5 @@ public class RLFColoring {
             System.out.println("Visited Attraction: " + attraction.getTitle() + " - Color: " + color);
         }
         System.out.println();
-    }
-
-    private LocalDate getEarliestAvailableDate(Attraction attraction) {
-        for (LocalDate date : plan.keySet()) {
-            boolean canVisit = true;
-            for (Attraction scheduledAttraction : plan.get(date)) {
-                if (!attraction.canVisit(scheduledAttraction)) {
-                    canVisit = false;
-                    break;
-                }
-            }
-            if (canVisit) {
-                return date;
-            }
-        }
-        return null;
-    }
-
-    private List<Attraction> getConflictingAttractions(Attraction attraction) {
-        List<Attraction> conflictingAttractions = new ArrayList<>();
-        for (List<Attraction> attractions : plan.values()) {
-            for (Attraction scheduledAttraction : attractions) {
-                if (!attraction.equals(scheduledAttraction) && !attraction.canVisit(scheduledAttraction)) {
-                    conflictingAttractions.add(scheduledAttraction);
-                }
-            }
-        }
-        return conflictingAttractions;
     }
 }

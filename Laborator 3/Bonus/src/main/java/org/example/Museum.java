@@ -4,19 +4,19 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Map;
 
-public class Museum extends Attraction implements Visitable{
+public class Museum extends Attraction implements Visitable {
 
     private String title;
     private Map<LocalDate, TimeInterval<LocalTime>> visitingTable;
 
-    public Museum(String title,Map<LocalDate, TimeInterval<LocalTime>> visitingTable) {
+    public Museum(String title, Map<LocalDate, TimeInterval<LocalTime>> visitingTable) {
         super(title);
-        this.visitingTable=visitingTable;
+        this.visitingTable = visitingTable;
     }
 
     @Override
-    public String toString(){
-        StringBuilder result=new StringBuilder();
+    public String toString() {
+        StringBuilder result = new StringBuilder();
         result.append(title);
         return result.toString();
     }
@@ -31,7 +31,7 @@ public class Museum extends Attraction implements Visitable{
         return super.getTitle();
     }
 
-    public boolean canVisit(Attraction other) {
+    /*public boolean canVisit(Attraction other) {
         if (other instanceof Visitable) {
             for (LocalDate date : visitingTable.keySet()) {
                 TimeInterval<LocalTime> thisTimeInterval = visitingTable.get(date);
@@ -40,12 +40,37 @@ public class Museum extends Attraction implements Visitable{
                 for (LocalDate otherDate : otherTimetable.keySet()) {
                     TimeInterval<LocalTime> otherTimeInterval = otherTimetable.get(otherDate);
 
-                    if (thisTimeInterval.overlaps(otherTimeInterval)) {
-                        return false; }
+                    if (thisTimeInterval.getEndVisit().getHour()<=otherTimeInterval.getStartVisit().getHour()) {
+                        return true; }
                 }
             }
         }
-        return true;
+        return false;
+    }
+*/
+    public boolean canVisit(Attraction other) {
+        if (other instanceof Visitable) {
+            for (LocalDate thisDate : visitingTable.keySet()) {
+                TimeInterval<LocalTime> thisTimeInterval = visitingTable.get(thisDate);
+                for (LocalDate otherDate : ((Visitable) other).getTimeTable().keySet()) {
+                    TimeInterval<LocalTime> otherTimeInterval = ((Visitable) other).getTimeTable().get(otherDate);
+                    if (!thisDate.equals(otherDate) && (thisTimeInterval.getStartVisit().isBefore(otherTimeInterval.getEndVisit()) && thisTimeInterval.getEndVisit().isAfter(otherTimeInterval.getStartVisit())) ||
+                            (otherTimeInterval.getStartVisit().isBefore(thisTimeInterval.getEndVisit()) && otherTimeInterval.getEndVisit().isAfter(thisTimeInterval.getStartVisit()))) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public LocalTime getVisit() {
+        for (LocalDate date : visitingTable.keySet()) {
+            TimeInterval<LocalTime> timeInterval = visitingTable.get(date);
+            return timeInterval.getStartVisit();
+        }
+        return null;
     }
 
 }

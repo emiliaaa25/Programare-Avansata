@@ -27,7 +27,7 @@ public class TravelPlan {
             List<Attraction> attractions = entry.getValue();
             String visitDate = date != null ? date.toString() : "any day";
             for (Attraction attraction : attractions) {
-                System.out.println( attraction.getTitle()+" on "+visitDate);
+                System.out.println(attraction.getTitle() + " on " + visitDate);
             }
         }
     }

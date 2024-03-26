@@ -1,6 +1,7 @@
 package org.example;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -37,9 +38,12 @@ public abstract class Attraction implements Comparable<Attraction> {
 
     public abstract boolean canVisit(Attraction scheduledAttraction);
 
+    public abstract LocalTime getVisit();
+
     public LocalDate getDate() {
         return date;
     }
 
 
+    public abstract Map<LocalDate, TimeInterval<LocalTime>> getTimeTable();
 }

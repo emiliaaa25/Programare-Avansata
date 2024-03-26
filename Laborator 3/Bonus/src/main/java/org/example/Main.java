@@ -1,4 +1,5 @@
 package org.example;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.*;
@@ -18,10 +19,10 @@ public class Main {
         churchTimetable4.put(LocalDate.of(2024, 3, 18), new TimeInterval<>(LocalTime.of(11, 0), LocalTime.of(15, 0)));
 
         Map<LocalDate, TimeInterval<LocalTime>> museumTimetable1 = new HashMap<>();
-        museumTimetable1.put(LocalDate.of(2024, 3, 22), new TimeInterval<>(LocalTime.of(10, 0), LocalTime.of(17, 0)));
+        museumTimetable1.put(LocalDate.of(2024, 3, 22), new TimeInterval<>(LocalTime.of(10, 0), LocalTime.of(12, 0)));
 
         Map<LocalDate, TimeInterval<LocalTime>> museumTimetable2 = new HashMap<>();
-        museumTimetable2.put(LocalDate.of(2024, 3, 23), new TimeInterval<>(LocalTime.of(9, 0), LocalTime.of(18, 0)));
+        museumTimetable2.put(LocalDate.of(2024, 3, 23), new TimeInterval<>(LocalTime.of(14, 0), LocalTime.of(18, 0)));
 
         Map<LocalDate, TimeInterval<LocalTime>> museumTimetable3 = new HashMap<>();
         museumTimetable3.put(LocalDate.of(2024, 3, 24), new TimeInterval<>(LocalTime.of(11, 0), LocalTime.of(16, 0)));
@@ -96,14 +97,11 @@ public class Main {
         travelPlan.addVisit(church2, LocalDate.of(2024, 3, 18));
         travelPlan.addVisit(church3, LocalDate.of(2024, 3, 18));
         travelPlan.addVisit(church4, LocalDate.of(2024, 3, 18));
-        travelPlan.addVisit(concert1, LocalDate.of(2024, 3, 22));
-        travelPlan.addVisit(concert2, LocalDate.of(2024, 3, 23));
-        travelPlan.addVisit(concert3, LocalDate.of(2024, 3, 25));
-        travelPlan.addVisit(museum1, LocalDate.of(2024, 3, 22));
-        travelPlan.addVisit(museum2, LocalDate.of(2024, 3, 23));
-        travelPlan.addVisit(museum3, LocalDate.of(2024, 3, 24));
-        travelPlan.addVisit(museum4, LocalDate.of(2024, 3, 25));
-        travelPlan.addVisit(museum5, LocalDate.of(2024, 3, 26));
+        travelPlan.addVisit(museum1, LocalDate.of(2024, 3, 18));
+        travelPlan.addVisit(museum2, LocalDate.of(2024, 3, 18));
+        travelPlan.addVisit(museum3, LocalDate.of(2024, 3, 20));
+        travelPlan.addVisit(museum4, LocalDate.of(2024, 3, 20));
+        travelPlan.addVisit(museum5, LocalDate.of(2024, 3, 20));
         travelPlan.addVisit(statue1, LocalDate.of(2024, 6, 20));
         travelPlan.addVisit(statue2, LocalDate.of(2024, 6, 21));
         travelPlan.addVisit(statue3, LocalDate.of(2024, 6, 22));
@@ -111,14 +109,18 @@ public class Main {
         travelPlan.addVisit(statue5, LocalDate.of(2024, 6, 24));
         travelPlan.printTravelPlan();
 
+        System.out.println("GreedyColoring:");
+        System.out.println();
+
         GreedyColoring greedyColoring = new GreedyColoring(travelPlan.getPlan());
         greedyColoring.planTripGreedy();
+        System.out.println("RLFColoring:");
+        System.out.println();
 
         RLFColoring rlfColoring = new RLFColoring(travelPlan.getPlan());
-       // rlfColoring.colorGraph(attractions);
+        rlfColoring.planTripRLF();
         //travelPlan.printTravelPlan();
     }
-
 
 
 }

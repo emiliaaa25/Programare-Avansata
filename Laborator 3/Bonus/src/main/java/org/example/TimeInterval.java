@@ -1,12 +1,12 @@
 package org.example;
 
-public class TimeInterval<T>{
+public class TimeInterval<T> {
     private T startVisit;
     private T endVisit;
 
-    public TimeInterval(T startVisit, T endVisit){
-        this.startVisit=startVisit;
-        this.endVisit=endVisit;
+    public TimeInterval(T startVisit, T endVisit) {
+        this.startVisit = startVisit;
+        this.endVisit = endVisit;
     }
 
     public T getStartVisit() {
@@ -26,8 +26,8 @@ public class TimeInterval<T>{
     }
 
     public boolean overlaps(TimeInterval<T> otherTimeInterval) {
-       if( this.startVisit == otherTimeInterval.startVisit)
-           return true;
-       return false;
+        if (this.startVisit == otherTimeInterval.startVisit)
+            return true;
+        return false;
     }
 }
