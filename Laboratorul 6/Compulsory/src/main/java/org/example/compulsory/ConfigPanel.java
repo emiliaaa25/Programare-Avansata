@@ -22,8 +22,8 @@ class ConfigPanel extends HBox {
     }
 
     private void resetGame() {
-        int xDimension = getXDimension()+2;
-        int yDimension = getYDimension()+2;
+        int xDimension = getXDimension();
+        int yDimension = getYDimension();
         DrawingPanel drawingPanel = (DrawingPanel) getParent().getChildrenUnmodifiable().get(1);
         drawingPanel.drawBoard(xDimension, yDimension);
     }
