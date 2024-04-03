@@ -17,17 +17,25 @@ class DrawingPanel extends Canvas {
     public void drawBoard(int xDimension, int yDimension) {
         GraphicsContext gc = getGraphicsContext2D();
         gc.clearRect(0, 0, getWidth(), getHeight());
-        double cellWidth = getWidth() / xDimension;
-        double cellHeight = getHeight() / yDimension;
+        double cellWidth ;
+        double cellHeight ;
+        if(xDimension==yDimension) {
+          cellWidth = getWidth() / xDimension;
+          cellHeight = getHeight() / yDimension;
+        }
+        else {
+            cellWidth = getWidth() / xDimension;
+            cellHeight = getHeight() / yDimension;
+        }
 
         gc.setStroke(Color.MAGENTA);
         for (int i = 1; i <= xDimension - 1; i++) {
             double xPos = i * cellWidth;
-            gc.strokeLine(xPos, cellWidth, xPos, getHeight()-cellWidth);
+            gc.strokeLine(xPos, cellHeight, xPos, getHeight()-cellHeight);
         }
         for (int i = 1; i <= yDimension - 1; i++) {
             double yPos = i * cellHeight;
-            gc.strokeLine(cellHeight, yPos, getWidth()-cellHeight, yPos);
+            gc.strokeLine(cellWidth, yPos, getWidth()-cellWidth, yPos);
         }
 
         gc.setFill(Color.TRANSPARENT);
