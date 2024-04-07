@@ -24,7 +24,7 @@ public class MainFrame extends Application {
         borderPane.setCenter(drawingPanel);
         borderPane.setBottom(controlPanel);
 
-        Scene scene = new Scene(borderPane, 600, 600);
+        Scene scene = new Scene(borderPane, 700, 700);
         primaryStage.setScene(scene);
         primaryStage.show();
     }

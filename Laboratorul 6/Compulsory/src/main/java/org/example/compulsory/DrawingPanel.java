@@ -9,8 +9,8 @@ class DrawingPanel extends Canvas {
     int yDimension = 10;
 
     public DrawingPanel() {
-        setWidth(400);
-        setHeight(400);
+        setWidth(500);
+        setHeight(500);
         drawBoard(xDimension, yDimension);
     }
 
@@ -19,21 +19,15 @@ class DrawingPanel extends Canvas {
         gc.clearRect(0, 0, getWidth(), getHeight());
         double cellWidth ;
         double cellHeight ;
-        if(xDimension==yDimension) {
-          cellWidth = getWidth() / xDimension;
-          cellHeight = getHeight() / yDimension;
-        }
-        else {
-            cellWidth = getWidth() / xDimension;
-            cellHeight = getHeight() / yDimension;
-        }
+        cellWidth = getWidth() / xDimension;
+        cellHeight = getHeight() / yDimension;
 
         gc.setStroke(Color.MAGENTA);
-        for (int i = 1; i <= xDimension - 1; i++) {
+        for (int i = 1; i <= xDimension-1; i++) {
             double xPos = i * cellWidth;
             gc.strokeLine(xPos, cellHeight, xPos, getHeight()-cellHeight);
         }
-        for (int i = 1; i <= yDimension - 1; i++) {
+        for (int i = 1; i <= yDimension-1 ; i++) {
             double yPos = i * cellHeight;
             gc.strokeLine(cellWidth, yPos, getWidth()-cellWidth, yPos);
         }
