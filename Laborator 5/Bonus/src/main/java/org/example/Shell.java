@@ -32,6 +32,7 @@ public class Shell {
             return new Export(new Repository("D:\\OneDrive\\Documente\\GitHub\\Programare-Avansata\\Laborator 5\\Company"), "export.json");
         }else if (input.equals("excel")) {
             FindMaximalGroup graph=new FindMaximalGroup();
+            graph.putPeopleInExcel(100);
             graph.getPeopleFromExcel("D:\\OneDrive\\Documente\\GitHub\\Programare-Avansata\\Laborator 5\\Company\\Abilities.xlsx");
             graph.buildGraph();
             List<String> cliques=graph.findMaximalCliques();
