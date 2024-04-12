@@ -2,10 +2,8 @@ package org.example.homework;
 
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 
@@ -16,7 +14,6 @@ class ConfigPanel extends HBox {
     public ConfigPanel(Stage stage) {
         setPadding(new Insets(10));
         setSpacing(10);
-        Text text = new Text("Grid Size:");
         xTextField = new TextField();
         yTextField = new TextField();
         Button newGameButton = new Button("Create");
@@ -39,7 +36,6 @@ class ConfigPanel extends HBox {
         drawingPanel.drawBoard(xDimension, yDimension);
         stage.show();
     }
-
 
     public int getXDimension() {
         if (xTextField.getText().isEmpty()) {
