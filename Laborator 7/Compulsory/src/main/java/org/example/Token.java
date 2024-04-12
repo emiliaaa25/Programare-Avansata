@@ -1,11 +1,14 @@
 package org.example;
 
 public class Token {
-    private  int first;
-    private int second;
+    public  int first;
+    public int second;
     Token(int first,int second){
         this.first=first;
         this.second=second;
     }
-
+    @Override
+    public String toString() {
+        return "(" + first + ", " + second + ")";
+    }
 }

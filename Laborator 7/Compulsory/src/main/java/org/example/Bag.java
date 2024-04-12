@@ -3,9 +3,12 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.locks.Lock;
 
 public class Bag {
     private List<Token> tokens;
+    private Lock lock;
+
 
     Bag(int n){
         tokens=new ArrayList<>();
@@ -18,17 +21,15 @@ public class Bag {
         }
     }
 
-    public List<Token> extract(int m){
-        List<Token> extracted=new ArrayList<>();
-        for(int i=0;i<m;i++){
-            if(tokens==null){
-                break;
-            }
-            extracted.add(tokens.get(i));
+    synchronized Token extract() {
+        if (!tokens.isEmpty()) {
+            return tokens.remove(0);
         }
-        return extracted;
+        return null;
     }
-    public boolean isEmpty(){
+
+    synchronized boolean isEmpty() {
         return tokens.isEmpty();
     }
 }
+
