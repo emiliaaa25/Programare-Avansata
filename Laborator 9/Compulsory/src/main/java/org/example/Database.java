@@ -1,0 +1,106 @@
+package org.example;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Database {
+    private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+    private static final String USER = "student";
+    private static final String PASSWORD = "STUDENT";
+    private static Connection connection = null;
+
+    public Database() {
+        createConnection();
+    }
+
+    public static Connection getConnection() {
+        return connection;
+    }
+
+    public static void createConnection() {
+        try {
+            connection = DriverManager.getConnection(URL, USER, PASSWORD);
+            connection.setAutoCommit(false);
+
+            createBookTable();
+            createAuthorsTable();
+            createGenreTable();
+            createBookAuthorTable();
+            createBookGenreTable();
+
+        } catch (SQLException e) {
+            System.out.println("Connection failure.");
+            System.err.println(e);
+        }
+    }
+
+    public static void createBookTable() throws SQLException {
+        try {
+            Statement statement = connection.createStatement();
+            statement.execute("DROP TABLE books");
+            statement.execute("CREATE TABLE books (id NUMBER PRIMARY KEY, name VARCHAR(255) NOT NULL, authors VARCHAR(255), year NUMBER, language VARCHAR(255), genres VARCHAR(255) )");
+        } catch (SQLException e) {
+            System.out.println("Table books already exists");
+        }
+    }
+
+    public static void createAuthorsTable() throws SQLException {
+        try {
+            Statement statement = connection.createStatement();
+            statement.execute("DROP TABLE authors");
+            statement.execute("CREATE TABLE authors (id NUMBER PRIMARY KEY, name VARCHAR(255) NOT NULL)");
+        } catch (SQLException e) {
+            System.out.println("Table authors already exists");
+        }
+    }
+
+    public static void createGenreTable() throws SQLException {
+        try {
+            Statement statement = connection.createStatement();
+            statement.execute("DROP TABLE genres");
+            statement.execute("CREATE TABLE genres (id NUMBER PRIMARY KEY, name VARCHAR(255) NOT NULL)");
+        } catch (SQLException e) {
+            System.out.println("Table genres already exists");
+        }
+    }
+
+    public static void createBookAuthorTable() throws SQLException {
+        try {
+            Statement statement = connection.createStatement();
+            statement.execute("DROP TABLE book_author");
+            statement.execute("CREATE TABLE book_author (id NUMBER PRIMARY KEY, book_id NUMBER, author_id NUMBER)");
+        } catch (SQLException e) {
+            System.out.println("Table book_author already exists");
+            System.err.println(e);
+        }
+    }
+
+    public static void createBookGenreTable() throws SQLException {
+        try {
+            Statement statement = connection.createStatement();
+            statement.execute("DROP TABLE book_genre");
+            statement.execute("CREATE TABLE book_genre (id NUMBER PRIMARY KEY, book_id NUMBER, genre_id NUMBER)");
+        } catch (SQLException e) {
+            System.out.println("Table book_genre already exists");
+        }
+    }
+
+    public static void closeConnection() {
+        try {
+            connection.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void rollback() {
+        try {
+            connection.rollback();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+}
