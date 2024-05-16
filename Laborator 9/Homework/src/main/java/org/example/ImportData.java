@@ -22,9 +22,6 @@ public class ImportData {
                 String dir = record.get(1);
 
                 if (dir.contains("'")) continue;
-
-                //AICI TREBUIE PUSE GENURILE, AUTORII SI ANUL
-
                 int[] chosenGenres = new int[7];
 
                 Random random = new Random();

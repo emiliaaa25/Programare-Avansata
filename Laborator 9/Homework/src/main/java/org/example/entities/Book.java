@@ -15,6 +15,17 @@ public class Book {
    @Column(name = "name")
     private String name;
 
+    public String getPublishingHouse() {
+        return publishingHouse;
+    }
+
+    public void setPublishingHouse(String publishingHouse) {
+        this.publishingHouse = publishingHouse;
+    }
+
+    @Column(name = "publishingHouse")
+    private String publishingHouse;
+
    @Column(name = "authors")
     private String authors;
 
@@ -76,4 +87,12 @@ public class Book {
     private String genres;
 
 
+    public void setTitle(String javaProgramming) {
+        this.name=javaProgramming;
+    }
+
+    public boolean getTitle() {
+
+        return false;
+    }
 }

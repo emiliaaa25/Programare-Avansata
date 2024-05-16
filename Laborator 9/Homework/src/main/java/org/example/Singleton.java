@@ -12,4 +12,8 @@ public class Singleton {
     public static EntityManagerFactory getEntityManagerFactory() {
         return instance;
     }
+
+    public static void close() {
+        instance.close();
+    }
 }

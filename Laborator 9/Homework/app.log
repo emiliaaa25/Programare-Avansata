@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T15:47:31.458746300Z</date>
+  <millis>1715874451458</millis>
+  <nanos>746300</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:31.466629500Z</date>
+  <millis>1715874451466</millis>
+  <nanos>629500</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:31.523983400Z</date>
+  <millis>1715874451523</millis>
+  <nanos>983400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:31.523983400Z</date>
+  <millis>1715874451523</millis>
+  <nanos>983400</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:31.526078400Z</date>
+  <millis>1715874451526</millis>
+  <nanos>78400</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.023154600Z</date>
+  <millis>1715874452023</millis>
+  <nanos>154600</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.023154600Z</date>
+  <millis>1715874452023</millis>
+  <nanos>154600</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.024291800Z</date>
+  <millis>1715874452024</millis>
+  <nanos>291800</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.024291800Z</date>
+  <millis>1715874452024</millis>
+  <nanos>291800</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.024291800Z</date>
+  <millis>1715874452024</millis>
+  <nanos>291800</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.025357600Z</date>
+  <millis>1715874452025</millis>
+  <nanos>357600</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.025357600Z</date>
+  <millis>1715874452025</millis>
+  <nanos>357600</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.025357600Z</date>
+  <millis>1715874452025</millis>
+  <nanos>357600</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.026424500Z</date>
+  <millis>1715874452026</millis>
+  <nanos>424500</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T15:47:32.026501100Z</date>
+  <millis>1715874452026</millis>
+  <nanos>501100</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T16:07:17.514055Z</date>
+  <millis>1715875637514</millis>
+  <nanos>55000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.520173800Z</date>
+  <millis>1715875637520</millis>
+  <nanos>173800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.553336400Z</date>
+  <millis>1715875637553</millis>
+  <nanos>336400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.553336400Z</date>
+  <millis>1715875637553</millis>
+  <nanos>336400</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.554407400Z</date>
+  <millis>1715875637554</millis>
+  <nanos>407400</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.779208400Z</date>
+  <millis>1715875637779</millis>
+  <nanos>208400</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.779347100Z</date>
+  <millis>1715875637779</millis>
+  <nanos>347100</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.779347100Z</date>
+  <millis>1715875637779</millis>
+  <nanos>347100</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.779347100Z</date>
+  <millis>1715875637779</millis>
+  <nanos>347100</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.779347100Z</date>
+  <millis>1715875637779</millis>
+  <nanos>347100</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.780475300Z</date>
+  <millis>1715875637780</millis>
+  <nanos>475300</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.780475300Z</date>
+  <millis>1715875637780</millis>
+  <nanos>475300</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.780475300Z</date>
+  <millis>1715875637780</millis>
+  <nanos>475300</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.780475300Z</date>
+  <millis>1715875637780</millis>
+  <nanos>475300</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:07:17.780475300Z</date>
+  <millis>1715875637780</millis>
+  <nanos>475300</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T16:09:59.356243600Z</date>
+  <millis>1715875799356</millis>
+  <nanos>243600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.361096500Z</date>
+  <millis>1715875799361</millis>
+  <nanos>96500</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.392394100Z</date>
+  <millis>1715875799392</millis>
+  <nanos>394100</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.392394100Z</date>
+  <millis>1715875799392</millis>
+  <nanos>394100</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.393443600Z</date>
+  <millis>1715875799393</millis>
+  <nanos>443600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.607176600Z</date>
+  <millis>1715875799607</millis>
+  <nanos>176600</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.607176600Z</date>
+  <millis>1715875799607</millis>
+  <nanos>176600</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.607176600Z</date>
+  <millis>1715875799607</millis>
+  <nanos>176600</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.607176600Z</date>
+  <millis>1715875799607</millis>
+  <nanos>176600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.608207400Z</date>
+  <millis>1715875799608</millis>
+  <nanos>207400</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.608207400Z</date>
+  <millis>1715875799608</millis>
+  <nanos>207400</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.608207400Z</date>
+  <millis>1715875799608</millis>
+  <nanos>207400</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.608207400Z</date>
+  <millis>1715875799608</millis>
+  <nanos>207400</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.608207400Z</date>
+  <millis>1715875799608</millis>
+  <nanos>207400</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:09:59.608207400Z</date>
+  <millis>1715875799608</millis>
+  <nanos>207400</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T16:11:47.664571300Z</date>
+  <millis>1715875907664</millis>
+  <nanos>571300</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.668791300Z</date>
+  <millis>1715875907668</millis>
+  <nanos>791300</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.696878600Z</date>
+  <millis>1715875907696</millis>
+  <nanos>878600</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.696878600Z</date>
+  <millis>1715875907696</millis>
+  <nanos>878600</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.697901400Z</date>
+  <millis>1715875907697</millis>
+  <nanos>901400</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.913340500Z</date>
+  <millis>1715875907913</millis>
+  <nanos>340500</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.913340500Z</date>
+  <millis>1715875907913</millis>
+  <nanos>340500</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.913340500Z</date>
+  <millis>1715875907913</millis>
+  <nanos>340500</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.913340500Z</date>
+  <millis>1715875907913</millis>
+  <nanos>340500</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.914406500Z</date>
+  <millis>1715875907914</millis>
+  <nanos>406500</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.914406500Z</date>
+  <millis>1715875907914</millis>
+  <nanos>406500</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.914406500Z</date>
+  <millis>1715875907914</millis>
+  <nanos>406500</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.914406500Z</date>
+  <millis>1715875907914</millis>
+  <nanos>406500</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.914406500Z</date>
+  <millis>1715875907914</millis>
+  <nanos>406500</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:11:47.914406500Z</date>
+  <millis>1715875907914</millis>
+  <nanos>406500</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T16:16:01.748803800Z</date>
+  <millis>1715876161748</millis>
+  <nanos>803800</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:01.748803800Z</date>
+  <millis>1715876161748</millis>
+  <nanos>803800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:01.783510500Z</date>
+  <millis>1715876161783</millis>
+  <nanos>510500</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:01.783510500Z</date>
+  <millis>1715876161783</millis>
+  <nanos>510500</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:01.784842900Z</date>
+  <millis>1715876161784</millis>
+  <nanos>842900</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:16:02.002548900Z</date>
+  <millis>1715876162002</millis>
+  <nanos>548900</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T16:19:42.373176900Z</date>
+  <millis>1715876382373</millis>
+  <nanos>176900</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.377468800Z</date>
+  <millis>1715876382377</millis>
+  <nanos>468800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.409368600Z</date>
+  <millis>1715876382409</millis>
+  <nanos>368600</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.410475700Z</date>
+  <millis>1715876382410</millis>
+  <nanos>475700</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.411548Z</date>
+  <millis>1715876382411</millis>
+  <nanos>548000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.637878200Z</date>
+  <millis>1715876382637</millis>
+  <nanos>878200</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.637878200Z</date>
+  <millis>1715876382637</millis>
+  <nanos>878200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.637878200Z</date>
+  <millis>1715876382637</millis>
+  <nanos>878200</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.638818300Z</date>
+  <millis>1715876382638</millis>
+  <nanos>818300</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.638818300Z</date>
+  <millis>1715876382638</millis>
+  <nanos>818300</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.638818300Z</date>
+  <millis>1715876382638</millis>
+  <nanos>818300</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.639330500Z</date>
+  <millis>1715876382639</millis>
+  <nanos>330500</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.639330500Z</date>
+  <millis>1715876382639</millis>
+  <nanos>330500</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.639330500Z</date>
+  <millis>1715876382639</millis>
+  <nanos>330500</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:19:42.639330500Z</date>
+  <millis>1715876382639</millis>
+  <nanos>330500</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T16:20:40.101288300Z</date>
+  <millis>1715876440101</millis>
+  <nanos>288300</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.105712200Z</date>
+  <millis>1715876440105</millis>
+  <nanos>712200</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.135658300Z</date>
+  <millis>1715876440135</millis>
+  <nanos>658300</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.136717700Z</date>
+  <millis>1715876440136</millis>
+  <nanos>717700</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.136717700Z</date>
+  <millis>1715876440136</millis>
+  <nanos>717700</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.356121200Z</date>
+  <millis>1715876440356</millis>
+  <nanos>121200</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.356121200Z</date>
+  <millis>1715876440356</millis>
+  <nanos>121200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.357213Z</date>
+  <millis>1715876440357</millis>
+  <nanos>213000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.357213Z</date>
+  <millis>1715876440357</millis>
+  <nanos>213000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.357213Z</date>
+  <millis>1715876440357</millis>
+  <nanos>213000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.357213Z</date>
+  <millis>1715876440357</millis>
+  <nanos>213000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.357213Z</date>
+  <millis>1715876440357</millis>
+  <nanos>213000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.357213Z</date>
+  <millis>1715876440357</millis>
+  <nanos>213000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.357213Z</date>
+  <millis>1715876440357</millis>
+  <nanos>213000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:40.358270Z</date>
+  <millis>1715876440358</millis>
+  <nanos>270000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-05-16T16:20:50.140965100Z</date>
+  <millis>1715876450140</millis>
+  <nanos>965100</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ META-INF/persistence.xml</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.145188900Z</date>
+  <millis>1715876450145</millis>
+  <nanos>188900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.173147400Z</date>
+  <millis>1715876450173</millis>
+  <nanos>147400</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.173147400Z</date>
+  <millis>1715876450173</millis>
+  <nanos>147400</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.174204500Z</date>
+  <millis>1715876450174</millis>
+  <nanos>204500</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.397970200Z</date>
+  <millis>1715876450397</millis>
+  <nanos>970200</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.397970200Z</date>
+  <millis>1715876450397</millis>
+  <nanos>970200</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.397970200Z</date>
+  <millis>1715876450397</millis>
+  <nanos>970200</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.398984600Z</date>
+  <millis>1715876450398</millis>
+  <nanos>984600</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.399053Z</date>
+  <millis>1715876450399</millis>
+  <nanos>53000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.399053Z</date>
+  <millis>1715876450399</millis>
+  <nanos>53000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>ENTRY file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/ null</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.399053Z</date>
+  <millis>1715876450399</millis>
+  <nanos>53000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>protocol = file</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.399053Z</date>
+  <millis>1715876450399</millis>
+  <nanos>53000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>ENTRY D:\OneDrive\Documente\GitHub\Programare-Avansata\Laborator 9\Homework\build\resources\main</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.399053Z</date>
+  <millis>1715876450399</millis>
+  <nanos>53000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>DirectoryArchive</class>
+  <method>DirectoryArchive</method>
+  <thread>1</thread>
+  <message>rootURL = file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/</message>
+</record>
+<record>
+  <date>2024-05-16T16:20:50.399053Z</date>
+  <millis>1715876450399</millis>
+  <nanos>53000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>FINER</level>
+  <class>ArchiveFactoryImpl</class>
+  <method>createArchive</method>
+  <thread>1</thread>
+  <message>RETURN DirectoryArchive(file:/D:/OneDrive/Documente/GitHub/Programare-Avansata/Laborator%209/Homework/build/resources/main/)</message>
+</record>
+</log>

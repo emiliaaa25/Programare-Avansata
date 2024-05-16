@@ -1,29 +1,32 @@
 package org.example;
 
-import java.sql.SQLException;
+import org.example.entities.Book;
+import org.example.entities.PublishingHouse;
+import org.example.repositories.BookRepository;
+
+import java.util.List;
+import java.util.UUID;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
-    public static void main(String[] args) throws SQLException {
-        try {
-            var books = new BookDAO();
-            ImportData.importData(books);
-            System.out.println("\nBONUS:");
-            ReadingList readingList = new ReadingList();
-            readingList.createGraph();
+    public static void main(String[] args) {
 
+        AppLogger.configure();
 
-            // AICI PRINTEAZA TOATE LISTELE DE CITIRE
-            String[] list = readingList.getReadingList();
-            for (String i : list) {
-                System.out.println("ANOTHER LIST:");
-                System.out.println(i);
-            }
-            DBCPDataSource.getConnection().close();
-        } catch (SQLException e) {
-            System.out.println("In main");
-            System.err.println(e);
-            DBCPDataSource.getConnection().rollback();
+        BookRepository bookRepository = new BookRepository();
+        PublishingHouse publishingHouse = new PublishingHouse();
+        publishingHouse.setName("Penguin Books");
+
+        Book book1 = new Book();
+        book1.setTitle("Java Programming");
+        book1.setPublishingHouse(publishingHouse.toString());
+
+        bookRepository.create(book1);
+        List<Book> books = bookRepository.findByName("Java");
+        for (Book book : books) {
+            System.out.println(book.getTitle());
         }
 
+        Singleton.close();
     }
 }

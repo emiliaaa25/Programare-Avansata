@@ -8,7 +8,8 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>org.example.entities.Book</class>
         <properties>
-            <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+            <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
             <property name="javax.persistence.jdbc.user" value="student"/>
             <property name="javax.persistence.jdbc.password" value="STUDENT"/>
             <property name="eclipselink.logging.level" value="FINE"/>
