@@ -22,10 +22,7 @@ public class Main {
         book1.setPublishingHouse(publishingHouse.toString());
 
         bookRepository.create(book1);
-        List<Book> books = bookRepository.findByName("Java");
-        for (Book book : books) {
-            System.out.println(book.getTitle());
-        }
+
 
         Singleton.close();
     }

@@ -5,6 +5,10 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "books")
+@NamedQuery(
+        name = "Book.findByName",
+        query = "SELECT b FROM Book b WHERE b.name LIKE :name"
+)
 public class Book {
 
     @Id
@@ -72,19 +76,19 @@ public class Book {
         this.language = language;
     }
 
-    public String getGenres() {
-        return genres;
+    public String getGenre() {
+        return genre;
     }
 
-    public void setGenres(String genres) {
-        this.genres = genres;
+    public void setGenres(String genre) {
+        this.genre = genre;
     }
 
     @Column(name = "language")
     private String language;
 
     @Column(name = "genres")
-    private String genres;
+    private String genre;
 
 
     public void setTitle(String javaProgramming) {
