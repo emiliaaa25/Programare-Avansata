@@ -1,0 +1,1405 @@
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Author@62315f22, org.example.entities.Author@7f4037ed, org.example.entities.Author@24e8de5c]
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 264 ms
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: []
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 9 ms
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Genre@288a4658, org.example.entities.Genre@5b56b654]
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 6 ms
+May 21, 2024 11:56:05 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Author@62315f22, org.example.entities.Author@7f4037ed, org.example.entities.Author@24e8de5c]
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 238 ms
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: []
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 6 ms
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Genre@288a4658, org.example.entities.Genre@5b56b654]
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 6 ms
+May 21, 2024 11:56:31 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Author@65e7f52a, org.example.entities.Author@7daa61f3, org.example.entities.Author@62315f22]
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 246 ms
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: []
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 5 ms
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Genre@c96a4ea, org.example.entities.Genre@28782602]
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 6 ms
+May 21, 2024 11:57:54 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:58:22 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Author@1f14f20c, org.example.entities.Author@b0964b2, org.example.entities.Author@48e7b3d2]
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 260 ms
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: []
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 6 ms
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Finding all entities
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Found entities: [org.example.entities.Genre@5339bbad, org.example.entities.Genre@3935e9a8]
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: Execution time for findAll method: 7 ms
+May 21, 2024 11:58:23 AM org.example.repositories.AbstractRepository findAll
+INFO: EntityManager closed after finding all entities
+May 21, 2024 1:51:54 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: John Doe
+May 21, 2024 1:51:54 PM org.example.repositories.AbstractRepository findByName
+SEVERE: Error while finding entity by name
+java.lang.IllegalArgumentException: NamedQuery of name: Author.findByName not found.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDatabaseQueryInternal(QueryImpl.java:364)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1244)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1265)
+	at org.example.repositories.AbstractRepository.findByName(AbstractRepository.java:90)
+	at org.example.Main.main(Main.java:37)
+
+May 21, 2024 1:51:54 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 19 ms
+May 21, 2024 1:51:54 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 1:52:16 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: John Doe
+May 21, 2024 1:52:16 PM org.example.repositories.AbstractRepository findByName
+SEVERE: Error while finding entity by name
+java.lang.IllegalArgumentException: NamedQuery of name: Author.findByName not found.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDatabaseQueryInternal(QueryImpl.java:364)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1244)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1265)
+	at org.example.repositories.AbstractRepository.findByName(AbstractRepository.java:90)
+	at org.example.Main.main(Main.java:38)
+
+May 21, 2024 1:52:16 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 12 ms
+May 21, 2024 1:52:16 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@26be6ca7
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@26be6ca7
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 136 ms
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 10 ms
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@29d37757
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@29d37757
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 4 ms
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@779dfe55
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@779dfe55
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: John Doe
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findByName
+SEVERE: Error while finding entity by name
+java.lang.IllegalArgumentException: NamedQuery of name: Author.findByName not found.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDatabaseQueryInternal(QueryImpl.java:364)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1244)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1265)
+	at org.example.repositories.AbstractRepository.findByName(AbstractRepository.java:90)
+	at org.example.Main.main(Main.java:38)
+
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 5 ms
+May 21, 2024 1:53:02 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 1:56:57 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@62417a16
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@62417a16
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 131 ms
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 8 ms
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@111610e6
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@111610e6
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@794b435f
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@794b435f
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: John Doe
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findByName
+SEVERE: Error while finding entity by name
+java.lang.IllegalArgumentException: NamedQuery of name: Author.findByName not found.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDatabaseQueryInternal(QueryImpl.java:364)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1244)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1265)
+	at org.example.repositories.AbstractRepository.findByName(AbstractRepository.java:90)
+	at org.example.Main.main(Main.java:38)
+
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 5 ms
+May 21, 2024 1:56:58 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@1b0a7baf
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@1b0a7baf
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 136 ms
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 9 ms
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@64e92d61
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@64e92d61
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 4 ms
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@55120f99
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@55120f99
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: John Doe
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findByName
+SEVERE: Error while finding entity by name
+java.lang.IllegalArgumentException: NamedQuery of name: Author.findByName not found.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDatabaseQueryInternal(QueryImpl.java:364)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1244)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1265)
+	at org.example.repositories.AbstractRepository.findByName(AbstractRepository.java:90)
+	at org.example.Main.main(Main.java:38)
+
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 5 ms
+May 21, 2024 1:57:37 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@53499d85
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@53499d85
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 131 ms
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 8 ms
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@79b663b3
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@79b663b3
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@26a529dc
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@26a529dc
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: John Doe
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findByName
+SEVERE: Error while finding entity by name
+java.lang.IllegalArgumentException: NamedQuery of name: Author.findByName not found.
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDatabaseQueryInternal(QueryImpl.java:364)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1244)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createNamedQuery(EntityManagerImpl.java:1265)
+	at org.example.repositories.AbstractRepository.findByName(AbstractRepository.java:90)
+	at org.example.Main.main(Main.java:38)
+
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 5 ms
+May 21, 2024 2:00:20 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@46c670a6
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@46c670a6
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 140 ms
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 9 ms
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@7882c44a
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@7882c44a
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@3cc20577
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@3cc20577
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:01:52 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@53499d85
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@53499d85
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 142 ms
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 8 ms
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@79b663b3
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@79b663b3
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@26a529dc
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@26a529dc
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 2:02:44 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@270b6b5e
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@270b6b5e
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 174 ms
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 109
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@69391e08
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 7 ms
+May 21, 2024 2:22:31 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@270b6b5e
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@270b6b5e
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 157 ms
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 110
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@69391e08
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 9 ms
+May 21, 2024 2:22:54 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@270b6b5e
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@270b6b5e
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 157 ms
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 111
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@69391e08
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 7 ms
+May 21, 2024 2:24:15 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@3971f0fe
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@3971f0fe
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 146 ms
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 112
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@5a237731
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 10 ms
+May 21, 2024 2:27:12 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@3971f0fe
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@3971f0fe
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 166 ms
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 113
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@782be4eb
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 11 ms
+May 21, 2024 2:29:09 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@67b100fe
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@67b100fe
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 27 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 114
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@1a865273
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 8 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@323f3c96
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@323f3c96
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 9 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 115
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@673919a7
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 4 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@2436ea2f
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@2436ea2f
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 116
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@de8039f
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 4 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@6f49d153
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@6f49d153
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 117
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@5bc7e78e
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:46:20 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@67b100fe
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@67b100fe
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 26 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 118
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@1a865273
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 6 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@323f3c96
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@323f3c96
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 119
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@673919a7
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@2436ea2f
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@2436ea2f
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 120
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@de8039f
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@6f49d153
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@6f49d153
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 121
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@5bc7e78e
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 1 ms
+May 21, 2024 2:46:48 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@22e5f96e
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@22e5f96e
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 23 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 122
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@60cf62ad
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 7 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@25d93198
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@25d93198
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 123
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@292158f8
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@58ff8d79
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@58ff8d79
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 124
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@6944e53e
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@b606cb6
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@b606cb6
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 125
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@554f0dfb
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 1 ms
+May 21, 2024 2:48:12 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@22e5f96e
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@22e5f96e
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 26 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 126
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@60cf62ad
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 9 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@25d93198
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@25d93198
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 127
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@292158f8
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@58ff8d79
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@58ff8d79
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 128
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@6944e53e
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@b606cb6
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@b606cb6
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 129
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@554f0dfb
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:49:17 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@1846579f
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@1846579f
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 51 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 130
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@245ec1a6
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 6 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@2b8bb184
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@2b8bb184
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 131
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@323f3c96
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@5292ceca
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@5292ceca
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 132
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@4110765e
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@62e93c3a
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@62e93c3a
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 133
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@59f93db8
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 1 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@58ff8d79
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@58ff8d79
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 134
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@6724cdec
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:49:28 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@552ed807
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@552ed807
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 158 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 135
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@36bf84e
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 6 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@7cd4a4d7
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 11 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: Test Book
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findByName
+SEVERE: Error while finding entity by name
+javax.persistence.NonUniqueResultException: More than one result was returned from Query.getSingleResult()
+	at org.eclipse.persistence.internal.jpa.QueryImpl.throwNonUniqueResultException(QueryImpl.java:989)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getSingleResult(QueryImpl.java:538)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.getSingleResult(EJBQueryImpl.java:404)
+	at org.example.repositories.AbstractRepository.findByName(AbstractRepository.java:92)
+	at BookTest.findByName(BookTest.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 15 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@4ee5b2d9
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@4ee5b2d9
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 136
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@5300cac
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 1 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@20cece0b
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@20cece0b
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 137
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@2e8a1ab4
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@1aabf50d
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@1aabf50d
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 138
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@5d5c04f9
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 1 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@52e04737
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@52e04737
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 139
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@2a3194c6
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:49:41 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@552ed807
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@552ed807
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 156 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 140
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@36bf84e
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 8 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@7cd4a4d7
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 9 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: Anna Karenina
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findByName
+INFO: Found entity: org.example.entities.Book@6cd5122d
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 8 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@7903d448
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@7903d448
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 141
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@711d1a52
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@1a865273
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@1a865273
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 142
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@6c008c24
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@21079a12
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@21079a12
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 143
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@60cf62ad
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 1 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@4b6d92e
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@4b6d92e
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 4 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 144
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@5300cac
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 2:51:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@4315e9af
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@4315e9af
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 147 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 145
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@6c931d35
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 8 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@1d23ff23
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 10 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: Anna Karenina
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findByName
+INFO: Found entity: org.example.entities.Book@eca6a74
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 10 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@6c008c24
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@6c008c24
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 8 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 146
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@1e0895f5
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@4b6d92e
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@4b6d92e
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 147
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@1bc0d349
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@5292ceca
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@5292ceca
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 148
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@f951a7f
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@de8039f
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@de8039f
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 8 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 149
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@6f49d153
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 3 ms
+May 21, 2024 3:13:02 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@4a9e6faf
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@4a9e6faf
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 131 ms
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 9 ms
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@3c443976
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@3c443976
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@27ead29e
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 7 ms
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@2424686b
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@2424686b
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 3:13:09 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@7db534f2
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@7db534f2
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 129 ms
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: null
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 9 ms
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@61942c1
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@61942c1
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@352e612e
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 7 ms
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@6e78fcf5
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@6e78fcf5
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 6 ms
+May 21, 2024 3:17:35 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@4315e9af
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@4315e9af
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 154 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 156
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@6c931d35
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 8 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 1
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@1d23ff23
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 10 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findByName
+INFO: Finding entity by name: Anna Karenina
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findByName
+INFO: Found entity: org.example.entities.Book@eca6a74
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findByName
+INFO: Execution time for findByName method: 8 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findByName
+INFO: EntityManager closed after finding entity by name
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Author@6c008c24
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Author@6c008c24
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 7 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 157
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Author@1e0895f5
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 4 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Book@4b6d92e
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Book@4b6d92e
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 158
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Book@1bc0d349
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.Genre@5292ceca
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.Genre@5292ceca
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 5 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 159
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.Genre@f951a7f
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Creating entity: org.example.entities.PublishingHouse@de8039f
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Entity created successfully: org.example.entities.PublishingHouse@de8039f
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: Execution time for create method: 8 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository create
+INFO: EntityManager closed after creating entity
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Finding entity by ID: 160
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Found entity: org.example.entities.PublishingHouse@6f49d153
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: Execution time for findById method: 2 ms
+May 21, 2024 3:18:08 PM org.example.repositories.AbstractRepository findById
+INFO: EntityManager closed after finding entity by ID
