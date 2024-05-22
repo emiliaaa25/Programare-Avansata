@@ -18,7 +18,7 @@ public class JdbcAuthorTest {
     private static final String USER = "student";
     private static final String PASSWORD = "STUDENT";
 
-    private Connection connection=null;
+    private Connection connection = null;
     private JdbcAuthorDAO jdbcAuthorDAO;
 
     @BeforeEach
@@ -39,7 +39,7 @@ public class JdbcAuthorTest {
         Author author = new Author();
         author.setName("John Doe");
         jdbcAuthorDAO.create("John Doe");
-       int id= jdbcAuthorDAO.findByName("John Doe");
+        int id = jdbcAuthorDAO.findByName("John Doe");
         assertEquals(91, id);
     }
 }

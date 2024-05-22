@@ -38,7 +38,8 @@ public class ImportData {
                     genresThis[i] = genres[genreIndex];
                 }
 
-                books.create(2024, "New Book", new String[]{"Author1", "Author2"}, new String[]{"Genre1", "Genre2"}, "English", "PublishingHouseName");            }
+                books.create(2024, "New Book", new String[]{"Author1", "Author2"}, new String[]{"Genre1", "Genre2"}, "English", "PublishingHouseName");
+            }
         } catch (Exception e) {
             System.err.println(e);
         }

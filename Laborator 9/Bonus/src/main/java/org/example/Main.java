@@ -5,12 +5,10 @@ import org.example.entities.Author;
 import org.example.entities.Book;
 import org.example.entities.Genre;
 import org.example.repositories.AbstractRepository;
-
 import java.sql.SQLException;
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.variables.BoolVar;
 import org.chocosolver.solver.variables.IntVar;
-
 
 public class Main {
     public static void main(String[] args) throws SQLException {
@@ -28,6 +26,8 @@ public class Main {
             bookDAO.create(2021, "Example Book", new String[]{"John Doe"}, new String[]{"Example Genre"}, "English", "Example Publishing House");
             genreDAO.create("Example Genre");
             publishingHouseDAO.create(0, "Example Publishing House");
+            String book = bookDAO.findById(92);
+            System.out.println(book);
 
         } else if (repoFactory != null) {
             AbstractRepository<Author> authorRepo = repoFactory.createAuthorDAO();
@@ -36,6 +36,8 @@ public class Main {
             authorRepo.create(new Author("John Doe"));
             bookRepo.create(new Book("Example Book", authorRepo.findById(1)));
             genreRepo.create(new Genre("Example Genre", bookRepo.findById(1)));
+            Book book = bookRepo.findById(92);
+            System.out.println(book.getName());
 
         } else {
             throw new RuntimeException("No valid factory found");
@@ -60,7 +62,7 @@ public class Main {
 
         IntVar[] years = new IntVar[books.length];
 
-        for (int i = 0;i < books.length;i++){
+        for (int i = 0; i < books.length; i++) {
             years[i] = model.intVar("year" + i, books[i].getYear());
             model.ifThen(model.arithm(isIncluded[i], "=", 1), model.arithm(years[i], "=", books[i].getYear()));
         }

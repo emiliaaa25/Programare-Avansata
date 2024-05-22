@@ -45,7 +45,7 @@ public class Book {
             joinColumns = @JoinColumn(name = "book_id"),
             inverseJoinColumns = @JoinColumn(name = "author_id")
     )
-    private List<Author> authors=new ArrayList<>();
+    private List<Author> authors = new ArrayList<>();
 
     @Column(name = "year")
     private int year;
@@ -59,7 +59,7 @@ public class Book {
             joinColumns = @JoinColumn(name = "book_id"),
             inverseJoinColumns = @JoinColumn(name = "genre_id")
     )
-    private List<Genre> genres=new ArrayList<>();
+    private List<Genre> genres = new ArrayList<>();
 
     public Book(int anInt, String string, int anInt1, String string1, PublishingHouse string2, String string3) {
         anInt = id;
@@ -91,7 +91,6 @@ public class Book {
     public void setName(String name) {
         this.name = name;
     }
-
 
 
     public List<Author> getAuthors() {

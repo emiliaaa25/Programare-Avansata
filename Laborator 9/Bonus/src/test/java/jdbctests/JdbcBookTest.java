@@ -18,7 +18,7 @@ public class JdbcBookTest {
     private static final String USER = "student";
     private static final String PASSWORD = "STUDENT";
 
-    private Connection connection=null;
+    private Connection connection = null;
     private JdbcBookDAO jdbcBookDAO;
 
     @BeforeEach

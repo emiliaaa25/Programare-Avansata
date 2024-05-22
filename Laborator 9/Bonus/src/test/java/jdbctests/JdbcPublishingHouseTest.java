@@ -18,7 +18,7 @@ public class JdbcPublishingHouseTest {
     private static final String USER = "student";
     private static final String PASSWORD = "STUDENT";
 
-    private Connection connection=null;
+    private Connection connection = null;
     private JdbcPublishingHouseDAO jdbcPublishingHouseDAO;
 
     @BeforeEach
@@ -38,7 +38,7 @@ public class JdbcPublishingHouseTest {
     void testPublishingHouse() throws SQLException {
         PublishingHouse publishingHouse = new PublishingHouse();
         publishingHouse.setName("Test Publishing House");
-        jdbcPublishingHouseDAO.create(1,"Test Publishing House");
+        jdbcPublishingHouseDAO.create(1, "Test Publishing House");
         int id = jdbcPublishingHouseDAO.findByName("Test Publishing House");
         assertEquals(1, id);
     }

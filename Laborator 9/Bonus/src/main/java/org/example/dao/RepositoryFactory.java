@@ -5,8 +5,10 @@ import org.example.entities.Book;
 import org.example.entities.Genre;
 import org.example.repositories.AbstractRepository;
 
-public interface RepositoryFactory  {
+public interface RepositoryFactory {
     AbstractRepository<Author> createAuthorDAO();
+
     AbstractRepository<Book> createBookDAO();
+
     AbstractRepository<Genre> createGenreDAO();
 }

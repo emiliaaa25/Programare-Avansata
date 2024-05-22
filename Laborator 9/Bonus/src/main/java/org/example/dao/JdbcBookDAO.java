@@ -1,4 +1,5 @@
 package org.example.dao;
+
 import org.example.DBCPDataSource;
 import org.example.entities.Book;
 import org.example.entities.Genre;
@@ -107,6 +108,7 @@ public class JdbcBookDAO implements BookDAO {
 
         if (pstmt != null) pstmt.close();
     }
+
     @Override
     public Integer findByName(String name) throws SQLException {
         String sql = "SELECT id FROM books WHERE name = ?";
@@ -139,7 +141,7 @@ public class JdbcBookDAO implements BookDAO {
         Connection con = DBCPDataSource.getConnection();
         try (Statement stmt = con.createStatement(); ResultSet rs = stmt.executeQuery("select * from books")) {
             while (rs.next()) {
-                Book book = new Book(rs.getInt(1), rs.getString(2), rs.getInt(3), rs.getString(4),rs.getObject(5, PublishingHouse.class), rs.getString(6));
+                Book book = new Book(rs.getInt(1), rs.getString(2), rs.getInt(3), rs.getString(4), rs.getObject(5, PublishingHouse.class), rs.getString(6));
                 books.add(book);
             }
         } catch (Exception e) {
