@@ -1,0 +1,1 @@
+am adaugat poze cu cererea http pe web si in postman
