@@ -5,6 +5,15 @@ public class ElevatorsDetails
     private int floor;
     private int idElevator;
     private int shouldStop;
+    private int startFloor;
+
+    public int getStartFloor() {
+        return startFloor;
+    }
+
+    public void setStartFloor(int startFloor) {
+        this.startFloor = startFloor;
+    }
 
     public int getFloor() {
         return floor;

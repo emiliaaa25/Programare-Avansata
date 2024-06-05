@@ -20,6 +20,7 @@ public class ElevatorDetailsRepository {
     private final RowMapper<ElevatorsDetails> elevatorsRowMapper = (resultSet, rowNum) ->{
         ElevatorsDetails elevators = new ElevatorsDetails();
         elevators.setFloor(resultSet.getInt("floor"));;
+        elevators.setStartFloor(resultSet.getInt("startFloor"));
         elevators.setShouldStop(resultSet.getInt("shouldStop"));
         elevators.setIdElevator(resultSet.getInt("idElevator"));
         return elevators;
@@ -45,5 +46,9 @@ public class ElevatorDetailsRepository {
 
     public int randomStop(int idElevator) {
         return jdbcTemplate.query("SELECT * FROM elevatorsDetails WHERE idElevator = ? AND shouldStop = 1", elevatorsRowMapper, idElevator).get(0).getFloor();
+    }
+
+    public int getStartFloor(int id) {
+        return jdbcTemplate.query("SELECT * FROM elevatorsDetails WHERE idElevator = ?", elevatorsRowMapper, id).get(0).getStartFloor();
     }
 }

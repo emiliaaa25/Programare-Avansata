@@ -1,15 +1,20 @@
 package com.example.project.controller;
 
+import com.example.project.model.Client;
 import com.example.project.model.Elevators;
 import com.example.project.model.ElevatorsDetails;
+import com.example.project.model.Floors;
+import com.example.project.repositories.ClientRepository;
 import com.example.project.repositories.ElevatorDetailsRepository;
 import com.example.project.repositories.ElevatorRepository;
+import com.example.project.repositories.FloorsRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @RestController
 @RequestMapping("/elevator")
@@ -20,6 +25,12 @@ public class ApiController {
     private ElevatorRepository elevatorRepository;
     @Autowired
     private ElevatorDetailsRepository elevatorDetailsRepository;
+    @Autowired
+    private FloorsRepository floorsRepository;
+    @Autowired
+    private ClientRepository clientRepository;
+
+    private final AtomicInteger clientIdCounter = new AtomicInteger();
 
     @GetMapping("/api/data")
     @ApiOperation(value = "Try it out")
@@ -45,22 +56,16 @@ public class ApiController {
         return elevatorRepository.findAll();
     }
 
-    @PostMapping("/add")
-    @ApiOperation(value = "Add a new elevator")
-    public Elevators addElevator(@RequestBody Elevators elevator) {
-        return elevatorRepository.addElevator(elevator);
-    }
-
     @PutMapping("/update/{idElevator}/{floor}")
     @ApiOperation(value = "Add in the database the fact that the elevator should stop at the floor")
     public void addElevatorDetails(@PathVariable int idElevator, @PathVariable int floor) {
         elevatorDetailsRepository.addElevatorStop(idElevator, floor);
     }
 
-    @GetMapping("/direction/{floor}/{direction}")
+    @GetMapping("/direction/{floor}/{direction}/{wantedFloor}")
     @ApiOperation(value = "Get the closest elevator to the floor")
-    public int firstElevatorToCome(@PathVariable int floor, @PathVariable String direction) {
-        return elevatorRepository.seeWhichElevatorComeFirst(floor, direction);
+    public int firstElevatorToCome(@PathVariable int floor, @PathVariable String direction,@PathVariable int wantedFloor) {
+        return elevatorRepository.seeWhichElevatorComeFirst(floor, direction, wantedFloor);
     }
 
     @GetMapping("/direction/{id}")
@@ -109,5 +114,62 @@ public class ApiController {
     @ApiOperation(value = "Get a stop of an elevator")
     public int randomStop(@PathVariable int id) {
         return elevatorDetailsRepository.randomStop(id);
+    }
+    @ApiOperation(value = "Add a new client")
+    @PostMapping("/client")
+    public Client addClient(@RequestBody Client client){
+
+        int newClientId = clientIdCounter.incrementAndGet();
+        client.setId(newClientId);
+        return clientRepository.addClient(client);
+    }
+
+    @GetMapping("/clients")
+    @ApiOperation(value = "Get client details by ID")
+    public List<Client> getClient() {
+        return clientRepository.findAll();
+    }
+
+    @DeleteMapping("/client/{id}")
+    @ApiOperation(value = "Delete a client by ID")
+    public void deleteClient(@PathVariable int id) {
+        clientRepository.deleteClient(id);
+    }
+
+    @GetMapping("/client/inElevator/{elevatorId}")
+    @ApiOperation(value = "Check if there is a client in the specified elevator")
+    public boolean isClientInElevator(@PathVariable int elevatorId) {
+        List<Client> clients = clientRepository.findAll();
+        for (Client client : clients) {
+            if (client.getCurrentFloor() == elevatorId) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @GetMapping("/count")
+    @ApiOperation(value = "Get the number of elevators")
+    public int getNumberOfElevators() {
+        return elevatorRepository.getNumberOfElevators();
+    }
+    @GetMapping("/elevator/floorsDetails/{id}")
+    public Floors getFloorsDetails(@PathVariable int id) {
+        return floorsRepository.getFloorsDetails(id);
+    }
+
+    @GetMapping("/startFloor/{id}")
+    public int getStartFloor(@PathVariable int id) {
+        return elevatorDetailsRepository.getStartFloor(id);
+    }
+
+    @GetMapping("/verifyElevator/{id}")
+    public String verifyElevator(@PathVariable int id) {
+        return elevatorRepository.verifyElevator(id);
+    }
+
+    @PutMapping("/update/isOcupied/{id}/{isOcupied}")
+    public void updateIsOcupied(@PathVariable int id, @PathVariable String isOcupied) {
+        elevatorRepository.updateIsOcupied(id, isOcupied);
     }
 }

@@ -7,6 +7,26 @@ public class Elevators
     private int currentFloor;
     private String direction;
 
+    private int startFloor;
+
+    String isOcupied;
+
+    public String getIsOcupied() {
+        return isOcupied;
+    }
+
+    public void setIsOcupied(String isOcupied) {
+        this.isOcupied = isOcupied;
+    }
+
+    public int getStartFloor() {
+        return startFloor;
+    }
+
+    public void setStartFloor(int startFloor) {
+        this.startFloor = startFloor;
+    }
+
     public int getId() {
         return id;
     }
