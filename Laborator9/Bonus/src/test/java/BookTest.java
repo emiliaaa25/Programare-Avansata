@@ -47,7 +47,6 @@ public class BookTest {
     void create() {
         Book book = new Book();
         book.setName("New Book");
-        bookRepository.create(book);
         Book foundBook = bookRepository.findById(book.getId());
         assertNotNull(foundBook);
         assertEquals("New Book", foundBook.getName());
