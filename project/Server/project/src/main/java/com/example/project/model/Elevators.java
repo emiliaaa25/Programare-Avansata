@@ -1,7 +1,6 @@
 package com.example.project.model;
 
-public class Elevators
-{
+public class Elevators {
     private int id;
     private String name;
     private int currentFloor;

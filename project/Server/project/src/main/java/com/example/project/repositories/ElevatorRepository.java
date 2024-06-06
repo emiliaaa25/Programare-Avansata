@@ -51,7 +51,7 @@ public class ElevatorRepository {
             if (floor >= elevator.getStartFloor() && wantedFloor >= elevator.getStartFloor()) {
                 switch (elevator.getDirection()) {
                     case "UP":
-                        if(isOcupied==0) {
+                        if (isOcupied == 0) {
                             if (elevator.getCurrentFloor() <= floor && minDistance > floor - elevator.getCurrentFloor()) {
                                 closestElevator = elevator;
                                 minDistance = floor - elevator.getCurrentFloor();
@@ -61,8 +61,7 @@ public class ElevatorRepository {
                                 minDistance = (5 - elevator.getCurrentFloor()) + (5 - floor);
                                 isOcupied = 1;
                             }
-                        }
-                        else {
+                        } else {
                             if (elevator.getCurrentFloor() <= floor) {
                                 closestElevator = elevator;
                                 minDistance = floor - elevator.getCurrentFloor();
@@ -75,7 +74,7 @@ public class ElevatorRepository {
                         }
                         break;
                     case "DOWN":
-                        if(isOcupied == 0) {
+                        if (isOcupied == 0) {
                             if (elevator.getCurrentFloor() >= floor && minDistance > elevator.getCurrentFloor() - floor) {
                                 closestElevator = elevator;
                                 minDistance = elevator.getCurrentFloor() - floor;
@@ -85,8 +84,7 @@ public class ElevatorRepository {
                                 minDistance = elevator.getCurrentFloor() + floor;
                                 isOcupied = 1;
                             }
-                        }
-                        else {
+                        } else {
                             if (elevator.getCurrentFloor() >= floor) {
                                 closestElevator = elevator;
                                 minDistance = floor - elevator.getCurrentFloor();
@@ -98,16 +96,15 @@ public class ElevatorRepository {
                             }
                         }
                     case "STOPPED":
-                        if(isOcupied == 0) {
+                        if (isOcupied == 0) {
                             if (minDistance > Math.abs(elevator.getCurrentFloor() - floor)) {
                                 closestElevator = elevator;
                                 minDistance = Math.abs(elevator.getCurrentFloor() - floor);
                             }
-                        }
-                        else{
-                                closestElevator = elevator;
-                                minDistance = Math.abs(elevator.getCurrentFloor() - floor);
-                                isOcupied = 0;
+                        } else {
+                            closestElevator = elevator;
+                            minDistance = Math.abs(elevator.getCurrentFloor() - floor);
+                            isOcupied = 0;
                         }
 
                 }
@@ -130,7 +127,7 @@ public class ElevatorRepository {
 
 
     public String verifyElevator(int id) {
-        return jdbcTemplate.query("SELECT * FROM elevators WHERE id = ?", elevatorsRowMapper,id).get(0).getIsOcupied();
+        return jdbcTemplate.query("SELECT * FROM elevators WHERE id = ?", elevatorsRowMapper, id).get(0).getIsOcupied();
 
     }
 

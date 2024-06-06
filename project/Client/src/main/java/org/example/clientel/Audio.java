@@ -15,7 +15,7 @@ public class Audio {
                 clip = AudioSystem.getClip();
                 clip.open(audioStream);
                 clip.start();
-                clip.loop(Clip.LOOP_CONTINUOUSLY); // Loop continuously if needed
+                clip.loop(Clip.LOOP_CONTINUOUSLY);
             } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
                 e.printStackTrace();
             }

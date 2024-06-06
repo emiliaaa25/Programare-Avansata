@@ -22,6 +22,7 @@ public class FloorsRepository {
         floors.setEtaj5(resultSet.getString("etaj5"));
         return floors;
     };
+
     public Floors getFloorsDetails(int id) {
         return jdbcTemplate.query("SELECT * FROM floors WHERE id = ?", floorsRowMapper, id).get(0);
     }

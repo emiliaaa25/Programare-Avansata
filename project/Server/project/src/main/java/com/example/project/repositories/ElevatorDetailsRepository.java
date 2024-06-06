@@ -17,9 +17,10 @@ public class ElevatorDetailsRepository {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    private final RowMapper<ElevatorsDetails> elevatorsRowMapper = (resultSet, rowNum) ->{
+    private final RowMapper<ElevatorsDetails> elevatorsRowMapper = (resultSet, rowNum) -> {
         ElevatorsDetails elevators = new ElevatorsDetails();
-        elevators.setFloor(resultSet.getInt("floor"));;
+        elevators.setFloor(resultSet.getInt("floor"));
+        ;
         elevators.setStartFloor(resultSet.getInt("startFloor"));
         elevators.setShouldStop(resultSet.getInt("shouldStop"));
         elevators.setIdElevator(resultSet.getInt("idElevator"));

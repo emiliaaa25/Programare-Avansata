@@ -16,6 +16,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.net.http.HttpRequest;
@@ -29,7 +30,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ClientApplication extends Application {
 
     private final HttpClient httpClient = HttpClient.newHttpClient();
-    private Integer currentFloor=0 ;
+    private Integer currentFloor = 0;
     private int idElevator = -1;
     private boolean isInElevator = false;
     private final Stage stage = new Stage();
@@ -57,7 +58,7 @@ public class ClientApplication extends Application {
 
         setBackground(root, "file:src/main/resources/building.jpg");
 
-        goInTheBuildingButton.setOnAction(event -> goInBuildingAction(root,0));
+        goInTheBuildingButton.setOnAction(event -> goInBuildingAction(root, 0));
         stage.setTitle("Client");
 
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
@@ -72,14 +73,12 @@ public class ClientApplication extends Application {
         stage.show();
     }
 
-    private void goInBuildingAction(VBox root, int floor)  {
+    private void goInBuildingAction(VBox root, int floor) {
         setBackground(root, floor == 0 ? "file:src/main/resources/hallway.jpg" : "file:src/main/resources/etaj" + floor + ".jpg");
         Platform.runLater(() -> {
             root.getChildren().clear();
 
             BorderPane borderPane = new BorderPane();
-
-            // Adăugăm textul într-un chenar frumos în partea de sus
             Label titleLabel = new Label("Choose the floor you want to go to:");
             titleLabel.setStyle("-fx-background-color: #f4f4f4; " +
                     "-fx-border-color: #ccc; " +
@@ -88,7 +87,7 @@ public class ClientApplication extends Application {
                     "-fx-padding: 10px;");
             borderPane.setTop(titleLabel);
 
-            GridPane buttonGrid = new GridPane(); // Creăm un GridPane pentru a aranja butoanele într-o matrice
+            GridPane buttonGrid = new GridPane();
 
             Button[] buttons = new Button[6];
             for (int i = 0; i < 6; i++) {
@@ -101,125 +100,109 @@ public class ClientApplication extends Application {
                         "-fx-border-radius: 30px; " +
                         "-fx-background-radius: 30px; " +
                         "-fx-font-weight: bold;");
-                buttons[i].setMinWidth(50); // Setăm o lățime minimă pentru butoane
-                buttons[i].setMinHeight(50); // Setăm o înălțime minimă pentru butoane
-
-                // Calculăm coordonatele butoanelor în matrice
+                buttons[i].setMinWidth(50);
+                buttons[i].setMinHeight(50);
                 int row = i / 3;
                 int col = i % 3;
-
-                // Adăugăm butonul la GridPane, la poziția specificată
                 buttonGrid.add(buttons[i], col, row);
             }
 
-            // Setăm spațiul orizontal și vertical între celulele din GridPane
             buttonGrid.setHgap(20);
             buttonGrid.setVgap(10);
-
-            // Aliniem GridPane-ul orizontal și vertical în centru
             buttonGrid.setAlignment(Pos.TOP_CENTER);
-
             RowConstraints rowConstraints = new RowConstraints();
             RowConstraints rowConstraints1 = new RowConstraints();
-
             rowConstraints.setMinHeight(300);
             rowConstraints1.setMinHeight(25);
-
             buttonGrid.getRowConstraints().addAll(rowConstraints1, rowConstraints1, rowConstraints);
-
             borderPane.setCenter(buttonGrid);
-
-
-
-
             Button goToYourRoomButton = new Button("Go to your room");
-            goToYourRoomButton.setOnAction(event->leaveElevator(root));
-            root.getChildren().addAll(goToYourRoomButton,borderPane,buttonGrid);
+            goToYourRoomButton.setOnAction(event -> leaveElevator(root));
+            root.getChildren().addAll(goToYourRoomButton, borderPane, buttonGrid);
         });
 
     }
 
-    private void fetchDataFromServer(VBox root, int floor){
+    private void fetchDataFromServer(VBox root, int floor) {
 
 
         String uri = "http://localhost:1520/elevator/";
         String direction = new String("");
-        if(currentFloor > floor){
+        if (currentFloor > floor) {
             direction = "DOWN";
-        }
-        else
+        } else
             direction = "UP";
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(uri + "direction/" + currentFloor + "/" + direction +"/" + floor))
+                .uri(URI.create(uri + "direction/" + currentFloor + "/" + direction + "/" + floor))
                 .GET()
                 .build();
 
         httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse -> {
-           idElevator = Integer.parseInt(httpResponse.body());
-              System.out.println("Elevator ales " + idElevator);
+            idElevator = Integer.parseInt(httpResponse.body());
+            System.out.println("Elevator ales " + idElevator);
 
-             HttpRequest request1 = HttpRequest.newBuilder()
-                      .uri(URI.create(uri + "update/" + idElevator + "/" + currentFloor))
-                      .PUT(HttpRequest.BodyPublishers.noBody())
-                      .build();
-             httpClient.sendAsync(request1, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse1 -> {
-                         System.out.println("Elevator updated");
-                     });
+            HttpRequest request1 = HttpRequest.newBuilder()
+                    .uri(URI.create(uri + "update/" + idElevator + "/" + currentFloor))
+                    .PUT(HttpRequest.BodyPublishers.noBody())
+                    .build();
+            httpClient.sendAsync(request1, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse1 -> {
+                System.out.println("Elevator updated");
+            });
 
-              HttpRequest request2 = HttpRequest.newBuilder()
-                .uri(URI.create(uri + "update/isOcupied/" + idElevator + "/" + "TRUE"))
-                .PUT(HttpRequest.BodyPublishers.noBody())
-                .build();
+            HttpRequest request2 = HttpRequest.newBuilder()
+                    .uri(URI.create(uri + "update/isOcupied/" + idElevator + "/" + "TRUE"))
+                    .PUT(HttpRequest.BodyPublishers.noBody())
+                    .build();
 
-              HttpRequest request3 = HttpRequest.newBuilder()
-                .uri(URI.create(uri + "floor/" + idElevator))
-                .GET()
-                .build();
-        AtomicInteger elevatorFloor = new AtomicInteger();
-             httpClient.sendAsync(request3, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse1 -> {
-                 elevatorFloor.set(Integer.parseInt(httpResponse1.body()));
-                 System.out.println("Elevator floor " + elevatorFloor);
+            HttpRequest request3 = HttpRequest.newBuilder()
+                    .uri(URI.create(uri + "floor/" + idElevator))
+                    .GET()
+                    .build();
+            AtomicInteger elevatorFloor = new AtomicInteger();
+            httpClient.sendAsync(request3, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse1 -> {
+                elevatorFloor.set(Integer.parseInt(httpResponse1.body()));
+                System.out.println("Elevator floor " + elevatorFloor);
 
-                 System.out.println("Current floor " + currentFloor);
-                 while (currentFloor != elevatorFloor.get()) {
-                     HttpRequest request4 = HttpRequest.newBuilder()
-                             .uri(URI.create(uri + "floor/" + idElevator))
-                             .GET()
-                             .build();
-                     httpClient.sendAsync(request4, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse2 -> {
-                         Platform.runLater(() -> {
-                             root.getChildren().clear();
-                             Label responseLabel = new Label("The elevator is at the floor : " + elevatorFloor);
-                                root.getChildren().add(responseLabel);
-                         });
-                         elevatorFloor.set(Integer.parseInt(httpResponse2.body()));
-                         System.out.println("Elevator floor2 " + elevatorFloor.get());
-                     }).join();
-                     try {
-                         Thread.sleep(500);
-                     } catch (InterruptedException e) {
-                         e.printStackTrace();
-                     }
-                 }
-                 System.out.println("A ajuns la etajul tau ");
+                System.out.println("Current floor " + currentFloor);
+                while (currentFloor != elevatorFloor.get()) {
+                    HttpRequest request4 = HttpRequest.newBuilder()
+                            .uri(URI.create(uri + "floor/" + idElevator))
+                            .GET()
+                            .build();
+                    httpClient.sendAsync(request4, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse2 -> {
+                        Platform.runLater(() -> {
+                            root.getChildren().clear();
+                            Label responseLabel = new Label("The elevator is at the floor : " + elevatorFloor);
+                            root.getChildren().add(responseLabel);
+                        });
+                        elevatorFloor.set(Integer.parseInt(httpResponse2.body()));
+                        System.out.println("Elevator floor2 " + elevatorFloor.get());
+                    }).join();
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+                System.out.println("A ajuns la etajul tau ");
 
-                 HttpRequest request5 = HttpRequest.newBuilder()
-                         .uri(URI.create(uri + "update/" + idElevator + "/" + floor))
-                         .PUT(HttpRequest.BodyPublishers.noBody())
-                         .build();
-                 httpClient.sendAsync(request2, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse3 -> {
-                     System.out.println("Elevator updated");
+                HttpRequest request5 = HttpRequest.newBuilder()
+                        .uri(URI.create(uri + "update/" + idElevator + "/" + floor))
+                        .PUT(HttpRequest.BodyPublishers.noBody())
+                        .build();
+                httpClient.sendAsync(request2, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse3 -> {
+                    System.out.println("Elevator updated");
                     httpClient.sendAsync(request5, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse2 -> {
                         inElevator(root, floor);
                     });
-                    });
+                });
 
-             });
+            });
         });
     }
 
-    private void inElevator(VBox root, int floorWanted){
+    private void inElevator(VBox root, int floorWanted) {
         audio.play();
         setBackground(root, "file:src/main/resources/inElevator.jpg");
 
@@ -261,13 +244,14 @@ public class ClientApplication extends Application {
                         .PUT(HttpRequest.BodyPublishers.noBody())
                         .build();
                 httpClient.sendAsync(request, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse -> {
-                    System.out.println("Elevator is not occupied anymore");
+                            System.out.println("Elevator is not occupied anymore");
                         }
                 );
                 showHallway(root);
             });
         });
     }
+
     private void showHallway(VBox root) {
         Platform.runLater(() -> {
             root.getChildren().clear();
@@ -320,7 +304,7 @@ public class ClientApplication extends Application {
                         .build();
                 httpClient.sendAsync(request1, HttpResponse.BodyHandlers.ofString()).thenAccept(httpResponse -> {
                     System.out.println("Elevator is not occupied anymore");
-                        });
+                });
                 stage.close();
             });
         });
@@ -384,7 +368,6 @@ public class ClientApplication extends Application {
                 break;
         }
     }
-
 
 
     public static void main(String[] args) {

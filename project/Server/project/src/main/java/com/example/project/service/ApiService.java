@@ -13,7 +13,7 @@ public class ApiService {
     public void callApi() throws InterruptedException {
         Integer elevatorsNumber = restTemplate.getForObject("http://localhost:1520/elevator/count", Integer.class);
         System.out.println("Number of elevators " + elevatorsNumber);
-        for(int i = 1; i <= elevatorsNumber; ++ i) {
+        for (int i = 1; i <= elevatorsNumber; ++i) {
             System.out.println("Elevator " + i);
 
             Integer currentFloor = restTemplate.getForObject("http://localhost:1520/elevator/floor/" + i, Integer.class);
@@ -28,65 +28,49 @@ public class ApiService {
             Integer shouldStop = restTemplate.getForObject("http://localhost:1520/elevator/shouldStop/" + i + "/" + currentFloor, Integer.class);
             System.out.println("Should he stop " + shouldStop);
 
-            if(shouldStop == 1)
-            {
-                // STEGRE SHOULDSTOPUL DE LA CURRENT FLOOR PENTRU EL
+            if (shouldStop == 1) {
                 restTemplate.put("http://localhost:1520/elevator/update/dontStop/" + i + "/" + currentFloor, 0);
                 System.out.println("Stop deleted");
             }
             Integer countStops = restTemplate.getForObject("http://localhost:1520/elevator/countStops/" + i, Integer.class);
             System.out.println("Number of stops " + countStops);
 
-            switch (direction){
+            switch (direction) {
                 case "UP":
-                        // Verificăm dacă liftul este la sau sub etajul de plecare
-                        if(countStops == 0){
-                            // SCHIMBA DIRECTIA
-                            restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/STOPPED", 0);
-                            System.out.println("Direction updated");
-                        } else if(currentFloor < 5) {
-                            // INCREMENTEAZA ETAJUL
-                            restTemplate.put("http://localhost:1520/elevator/update/floor/" + i + "/" + (currentFloor + 1), 0);
-                            System.out.println("Floor updated");
-                        } else {
-                            // SCHIMBA DIRECTIA
-                            restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/DOWN", 0);
-                            System.out.println("Direction updated");
-                        }
+                    if (countStops == 0) {
+                        restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/STOPPED", 0);
+                        System.out.println("Direction updated");
+                    } else if (currentFloor < 5) {
+                        restTemplate.put("http://localhost:1520/elevator/update/floor/" + i + "/" + (currentFloor + 1), 0);
+                        System.out.println("Floor updated");
+                    } else {
+                        restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/DOWN", 0);
+                        System.out.println("Direction updated");
+                    }
 
                     break;
                 case "DOWN":
-                        // Verificăm dacă liftul este la sau deasupra etajului de plecare
-                        if(countStops == 0){
-                            // SCHIMBA DIRECTIA
-                            restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/STOPPED", 0);
-                            System.out.println("Direction updated");
-                        } else if(currentFloor > startFloor) {
-                            // DECREMENTEAZA ETAJUL
-                            restTemplate.put("http://localhost:1520/elevator/update/floor/" + i + "/" + (currentFloor - 1), 0);
-                            System.out.println("Floor updated");
-                        } else {
-                            // SCHIMBA DIRECTIA
-                            restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/UP", 0);
-                            System.out.println("Direction updated");
-                        }
+                    if (countStops == 0) {
+                        restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/STOPPED", 0);
+                        System.out.println("Direction updated");
+                    } else if (currentFloor > startFloor) {
+                        restTemplate.put("http://localhost:1520/elevator/update/floor/" + i + "/" + (currentFloor - 1), 0);
+                        System.out.println("Floor updated");
+                    } else {
+                        restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/UP", 0);
+                        System.out.println("Direction updated");
+                    }
 
                     break;
                 case "STOPPED":
-                    if(countStops != 0){
-                        // VEDEM UNDE A APARUT O OPRIRE
-                        Integer firstStop = restTemplate.getForObject("http://localhost:1520/elevator/randomStop/" + i , Integer.class);
+                    if (countStops != 0) {
+                        Integer firstStop = restTemplate.getForObject("http://localhost:1520/elevator/randomStop/" + i, Integer.class);
                         System.out.println("First stop " + firstStop);
 
-                        if(firstStop > currentFloor)
-                        {
-                            // SCHIMBA DIRECTIA
+                        if (firstStop > currentFloor) {
                             restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/UP", 0);
                             System.out.println("Direction updated");
-                        }
-                        else if(firstStop <= currentFloor)
-                        {
-                            // SCHIMBA DIRECTIA
+                        } else if (firstStop <= currentFloor) {
                             restTemplate.put("http://localhost:1520/elevator/update/direction/" + i + "/DOWN", 0);
                             System.out.println("Direction updated");
                         }

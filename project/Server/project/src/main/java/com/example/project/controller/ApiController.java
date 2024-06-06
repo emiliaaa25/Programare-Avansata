@@ -64,7 +64,7 @@ public class ApiController {
 
     @GetMapping("/direction/{floor}/{direction}/{wantedFloor}")
     @ApiOperation(value = "Get the closest elevator to the floor")
-    public int firstElevatorToCome(@PathVariable int floor, @PathVariable String direction,@PathVariable int wantedFloor) {
+    public int firstElevatorToCome(@PathVariable int floor, @PathVariable String direction, @PathVariable int wantedFloor) {
         return elevatorRepository.seeWhichElevatorComeFirst(floor, direction, wantedFloor);
     }
 
@@ -115,9 +115,10 @@ public class ApiController {
     public int randomStop(@PathVariable int id) {
         return elevatorDetailsRepository.randomStop(id);
     }
+
     @ApiOperation(value = "Add a new client")
     @PostMapping("/client")
-    public Client addClient(@RequestBody Client client){
+    public Client addClient(@RequestBody Client client) {
 
         int newClientId = clientIdCounter.incrementAndGet();
         client.setId(newClientId);
@@ -153,6 +154,7 @@ public class ApiController {
     public int getNumberOfElevators() {
         return elevatorRepository.getNumberOfElevators();
     }
+
     @GetMapping("/elevator/floorsDetails/{id}")
     public Floors getFloorsDetails(@PathVariable int id) {
         return floorsRepository.getFloorsDetails(id);

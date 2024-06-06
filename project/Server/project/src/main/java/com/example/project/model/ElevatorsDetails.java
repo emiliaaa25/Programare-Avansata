@@ -1,7 +1,6 @@
 package com.example.project.model;
 
-public class ElevatorsDetails
-{
+public class ElevatorsDetails {
     private int floor;
     private int idElevator;
     private int shouldStop;
